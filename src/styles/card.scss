@@ -6,21 +6,21 @@
   border: 1px solid $color-border;
   border-radius: 5px;
   width: 200px;
-  height: 406px;
+
 
   &__body {
     padding: 0 16px 16px;
   }
 
   &__image {
-    background-image: url(../images/imac.jpeg);
+    background-image: url(../images/imac.png);
     display: block;
     width: 160px;
     height: 134px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 32px auto 40px;
+    margin: 32px 19px 40px;
   }
 
   &__title {
@@ -71,7 +71,7 @@
   }
 
   &__buy {
-    width: 168px;
+    width: 166px;
     height: 40px;
     border-radius: 5px;
     background-color: $color-primary;

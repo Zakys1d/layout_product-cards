@@ -7,7 +7,6 @@
     gap: 4px;
   }
 
-
   &__reviews {
     display: flex;
     align-items: center;
@@ -17,14 +16,13 @@
     color: $color-dark;
   }
 
-    &__item {
+  &__item {
     width: 16px;
     height: 16px;
     background-image: url('../images/star.svg');
     background-repeat: no-repeat;
     background-position: center;
   }
-
 
   &--1 &__item:nth-child(-n + 1),
   &--2 &__item:nth-child(-n + 2),
